@@ -1,0 +1,52 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1136px;
+    height: 80px;
+    margin-top: 24px;
+    border-radius: 12px;
+    padding: 0px 24px 0px 24px; 
+    background-color: #f8f8f8;
+    border: 1px solid;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+    width: 508px;
+    height: 35.16px;
+    gap: 80px;
+  }
+  
+  .logo{
+    width: 94px;
+    height: 35.16px;
+  }
+
+  .topbar-menu {
+    width: 334px;
+    height: 20px;
+    gap: 40px;
+    display: flex;
+    list-style-type: none;
+    
+  }
+    
+  .nav-button {
+    width: 128px;
+    height: 40px;
+    padding: 9px 24px 11px 24px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  
